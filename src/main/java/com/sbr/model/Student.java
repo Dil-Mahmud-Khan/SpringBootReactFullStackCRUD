@@ -22,6 +22,7 @@ public class Student {
     private  String firstName;
     private String lastName;
 
+    @NaturalId(mutable = true)
     private String email;
     private String department;
 
